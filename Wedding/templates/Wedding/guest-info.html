@@ -1,0 +1,55 @@
+{% extends "Wedding/base.html" %}
+{% load staticfiles %}
+{% block title %}Steph & Will{% endblock %}
+
+{% block content %}
+	{% include "Wedding/page_header.html" %}
+	<div class="container">
+
+		{% include "Wedding/page_nav.html" with curr_page="guest-info" %}
+
+		<div id="intro" class="content-block">
+			<article class="clearfix">
+				<h1 class="align-left"><span class="long">For Our Guests</span><span class="short">Guests</span></h1>
+
+				<h2 class="align-left">Schedule</h2>
+				<div class="float-container">
+					<div>
+						<ul>
+							<li><span class="crush">*</span>4:00 P.M. - Earliest Arrival</li>
+							<li><span class="crush">*</span>4:30 P.M. - Ceremony Begins</li>
+							<li><span class="crush">*</span>5:00 P.M. - Ceremony Ends; Wedding Party leaves for pictures</li>
+							<li><span class="crush">*</span>6:15 P.M. - Wedding Party is back; Best man/Maid of honor speeches</li>
+							<li><span class="crush">*</span>6:30 P.M. - Buffet and greeting the newly weds</li>
+							<li><span class="crush">*</span>7:30 P.M. - First Dance; Parent dances</li>
+							<li><span class="crush">*</span>7:45 P.M. - Dance floor open</li>
+							<li><span class="crush">*</span>9:30 P.M. - Final dance; Farewells</li>
+						</ul>
+					</div>
+				</div>
+
+				<h2 class="align-left">Where to Stay</h2>
+				<div class="float-container">
+					<div class="text align-center">
+						<h3>The <a href="http://www.laquintarochesternorth.com/">LaQuinta Inns & Suites</a> - "Official" Wedding Hotel</h3>
+						<p>
+							585-254-1000<br />
+							Group Rate: $96.90 (tax incl.)<br />
+							Mention the "Gordon/Young Wedding"
+						</p>
+						<div class="map align-center">
+							<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=La%20Quinta%20Inn%20Rochester%20North%2C%20Lyell%20Avenue%2C%20Rochester%2C%20NY%2C%20United%20States%2C%20North%20America&key=AIzaSyAKUJ290AtZcl_eJhLQZ2299TVRrpFu9ew"></iframe>
+						</div>
+					</div>
+				</div>
+
+				<h2 class="align-left">The Registry</h2>
+				<div class="text align-center">
+					<h3>Checkout <a href="//stephandwill.com/registry">StephandWill.com/Registry</a> for our registry!</h3>
+				</div>
+
+			</article>
+
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+/* Sans Serif fonts */
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat/montserrat.eot");
+  src: url("fonts/montserrat/montserrat.eot?#iefix") format('embedded-opentype'), url("fonts/montserrat/montserrat.woff2") format('woff2'), url("fonts/montserrat/montserrat.woff") format('woff'), url("fonts/montserrat/montserrat.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat/montserrat-bold.eot");
+  src: url("fonts/montserrat/montserrat-bold.eot?#iefix") format('embedded-opentype'), url("fonts/montserrat/montserrat-bold.woff2") format('woff2'), url("fonts/montserrat/montserrat-bold.woff") format('woff'), url("fonts/montserrat/montserrat-bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat/montserrat-italic.eot");
+  src: url("fonts/montserrat/montserrat-italic.eot?#iefix") format('embedded-opentype'), url("fonts/montserrat/montserrat-italic.woff2") format('woff2'), url("fonts/montserrat/montserrat-italic.woff") format('woff'), url("fonts/montserrat/montserrat-italic.ttf") format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat/montserrat-bold-italic.eot");
+  src: url("fonts/montserrat/montserrat-bold-italic.eot?#iefix") format('embedded-opentype'), url("fonts/montserrat/montserrat-bold-italic.woff2") format('woff2'), url("fonts/montserrat/montserrat-bold-italic.woff") format('woff'), url("fonts/montserrat/montserrat-bold-italic.ttf") format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+/* Ornament fonts */
+@font-face {
+/* [ and ] for surrounding hearts, * for tiny heart, | for full character heart */
+  font-family: 'Crush';
+  src: url("fonts/crush/crush.eot");
+  src: url("fonts/crush/crush.eot?#iefix") format('embedded-opentype'), url("fonts/crush/crush.woff2") format('woff2'), url("fonts/crush/crush.woff") format('woff'), url("fonts/crush/crush.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Serif fonts */
+@font-face {
+  font-family: 'Italianno';
+  src: url("fonts/italianno/italianno-regular-otf.eot");
+  src: url("fonts/italianno/italianno-regular-otf.eot?#iefix") format('embedded-opentype'), url("fonts/italianno/italianno-regular-otf.woff2") format('woff2'), url("fonts/italianno/italianno-regular-otf.woff") format('woff'), url("fonts/italianno/italianno-regular-otf.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

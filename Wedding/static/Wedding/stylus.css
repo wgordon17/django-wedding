@@ -1,0 +1,610 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat/montserrat.eot");
+  src: url("fonts/montserrat/montserrat.eot?#iefix") format('embedded-opentype'), url("fonts/montserrat/montserrat.woff2") format('woff2'), url("fonts/montserrat/montserrat.woff") format('woff'), url("fonts/montserrat/montserrat.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat/montserrat-bold.eot");
+  src: url("fonts/montserrat/montserrat-bold.eot?#iefix") format('embedded-opentype'), url("fonts/montserrat/montserrat-bold.woff2") format('woff2'), url("fonts/montserrat/montserrat-bold.woff") format('woff'), url("fonts/montserrat/montserrat-bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat/montserrat-italic.eot");
+  src: url("fonts/montserrat/montserrat-italic.eot?#iefix") format('embedded-opentype'), url("fonts/montserrat/montserrat-italic.woff2") format('woff2'), url("fonts/montserrat/montserrat-italic.woff") format('woff'), url("fonts/montserrat/montserrat-italic.ttf") format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat/montserrat-bold-italic.eot");
+  src: url("fonts/montserrat/montserrat-bold-italic.eot?#iefix") format('embedded-opentype'), url("fonts/montserrat/montserrat-bold-italic.woff2") format('woff2'), url("fonts/montserrat/montserrat-bold-italic.woff") format('woff'), url("fonts/montserrat/montserrat-bold-italic.ttf") format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+/* [ and ] for surrounding hearts, * for tiny heart, | for full character heart */
+  font-family: 'Crush';
+  src: url("fonts/crush/crush.eot");
+  src: url("fonts/crush/crush.eot?#iefix") format('embedded-opentype'), url("fonts/crush/crush.woff2") format('woff2'), url("fonts/crush/crush.woff") format('woff'), url("fonts/crush/crush.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Italianno';
+  src: url("fonts/italianno/italianno-regular-otf.eot");
+  src: url("fonts/italianno/italianno-regular-otf.eot?#iefix") format('embedded-opentype'), url("fonts/italianno/italianno-regular-otf.woff2") format('woff2'), url("fonts/italianno/italianno-regular-otf.woff") format('woff'), url("fonts/italianno/italianno-regular-otf.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 53.125em) {
+  header {
+    text-align: center;
+    height: 75vh;
+  }
+}
+@media (max-width: 53.124em) {
+  header {
+    text-align: left;
+    height: 65vh;
+  }
+}
+header > section {
+  position: fixed;
+  width: 100%;
+  z-index: -10;
+  background: #fff url("/media/bg.png");
+  min-width: 20em;
+  height: 100%;
+}
+@media (max-width: 53.124em) {
+  header > section {
+    padding: 0 6%;
+  }
+}
+header > section > div {
+  vertical-align: top;
+  font-family: 'Crush', Georgia, serif;
+}
+@media (min-width: 53.125em) {
+  header > section > div {
+    display: inline-block;
+    margin-top: 15vh;
+    font-size: 4em;
+  }
+}
+@media (max-width: 53.124em) {
+  header > section > div {
+    margin-top: 40px;
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+  }
+}
+@media (min-width: 73.375em) {
+  header > section #wedding-date {
+    margin-right: 20px;
+    text-align: right;
+  }
+}
+@media (min-width: 53.125em) and (max-width: 73.374em) {
+  header > section #wedding-date {
+    text-align: right;
+  }
+}
+@media (max-width: 39.687000000000005em) {
+  header > section #wedding-date {
+    color: #b6bab9;
+    margin-top: 0;
+    position: absolute;
+  }
+}
+@media (min-width: 73.375em) {
+  header > section #countdown {
+    margin-left: 20px;
+    text-align: left;
+  }
+}
+@media (min-width: 53.125em) and (max-width: 73.374em) {
+  header > section #countdown {
+    text-align: left;
+  }
+}
+@media (max-width: 53.124em) and (min-width: 39.688em) {
+  header > section #countdown {
+    clear: left;
+  }
+}
+@media (max-width: 39.687000000000005em) {
+  header > section #countdown {
+    display: none;
+  }
+}
+#portrait {
+  height: 90vh;
+}
+@media (min-width: 73.375em) {
+  #portrait {
+    width: 640px;
+    background: url("/media/engagementLarge.png") no-repeat center top/cover;
+  }
+}
+@media (max-width: 73.374em) and (min-width: 53.125em) {
+  #portrait {
+    width: 40%;
+    background: url("/media/engagementLarge.png") no-repeat center top/cover;
+  }
+}
+@media (min-width: 53.125em) {
+  #portrait {
+    display: inline-block;
+  }
+}
+@media (max-width: 53.124em) {
+  #portrait {
+    display: none;
+  }
+}
+@media (min-width: 53.125em) {
+  #portrait-narrow {
+    display: none;
+  }
+}
+@media (max-width: 53.124em) and (min-width: 39.688em) {
+  #portrait-narrow {
+    width: 400px;
+    height: 90vh;
+    background: url("/media/engagementMed.png") no-repeat center top;
+    float: right;
+  }
+}
+@media (max-width: 39.687000000000005em) {
+  #portrait-narrow {
+    width: 100%;
+    height: 90vh;
+    background: url("/media/engagementMed.png") no-repeat -60px top;
+    float: right;
+  }
+}
+.will-young {
+  background: url("/media/will_young.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .will-young {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .will-young {
+    background-size: 22em auto;
+  }
+}
+.steph-young {
+  background: url("/media/steph_young.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .steph-young {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .steph-young {
+    background-size: 22em auto;
+  }
+}
+.dating {
+  background: url("/media/dating.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .dating {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .dating {
+    background-size: 26em auto;
+  }
+}
+.kristi {
+  background: url("/media/kristi.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .kristi {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .kristi {
+    background-size: 22em auto;
+  }
+}
+.jordan {
+  background: url("/media/jordan.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .jordan {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .jordan {
+    background-size: 22em auto;
+  }
+}
+.mike {
+  background: url("/media/mike.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .mike {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .mike {
+    background-size: 22em auto;
+  }
+}
+.berry {
+  background: url("/media/berry.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .berry {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .berry {
+    background-size: 22em auto;
+  }
+}
+.alyssa {
+  background: url("/media/alyssa.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .alyssa {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .alyssa {
+    background-size: 22em auto;
+  }
+}
+.ashley {
+  background: url("/media/ashley.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .ashley {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .ashley {
+    background-size: 22em auto;
+  }
+}
+.diplomat {
+  background: url("/media/diplomat.png") no-repeat;
+}
+@media (min-width: 73.375em) {
+  .diplomat {
+    background-size: 25% auto;
+  }
+}
+@media (max-width: 73.374em) {
+  .diplomat {
+    background-size: 33em auto;
+  }
+}
+#banner {
+  font-size: 8em;
+  line-height: 0.96;
+  font-family: 'Italianno', Georgia, serif;
+  text-align: center;
+}
+@media (min-width: 73.375em) {
+  #banner .banner-bar {
+    height: 0.64em;
+  }
+}
+@media (max-width: 73.374em) {
+  #banner .banner-bar {
+    height: 1.59em;
+  }
+}
+#banner span {
+  position: relative;
+  top: -4px;
+}
+#banner span.short {
+  max-width: 300px;
+}
+@media (max-width: 39.687000000000005em) {
+  #banner span.short {
+    display: block;
+    margin: 0 auto;
+  }
+}
+nav {
+  text-align: center;
+  position: relative;
+  z-index: 50;
+}
+nav ul {
+  margin: 0 auto;
+}
+@media (min-width: 73.375em) {
+  nav ul {
+    width: 73.375em;
+  }
+}
+@media (max-width: 73.374em) and (min-width: 39.688em) {
+  nav ul {
+    width: 500px;
+  }
+}
+nav ul:hover a.active:before,
+nav ul:hover a.active:after {
+  content: '';
+}
+nav ul:hover a.active:hover:before {
+  content: '[';
+}
+nav ul:hover a.active:hover:after {
+  content: ']';
+}
+nav li {
+  margin: 0 2.2%;
+}
+@media (min-width: 39.688em) {
+  nav li {
+    float: left;
+  }
+}
+nav a {
+  text-decoration: none;
+  color: #3b283d;
+  font-family: 'Crush', Georgia, serif;
+  font-size: 2.2em;
+  line-height: 2;
+  display: block;
+}
+nav a.active:before {
+  content: '[';
+}
+nav a.active:after {
+  content: ']';
+}
+nav a:before,
+nav a:after {
+  position: absolute;
+}
+nav a:hover:before {
+  content: '[';
+}
+nav a:hover:after {
+  content: ']';
+}
+nav a span {
+  padding-left: 24px;
+}
+@media (min-width: 73.375em) {
+  .text {
+    width: 75%;
+  }
+}
+@media (max-width: 73.374em) {
+  .text {
+    width: 100%;
+  }
+}
+.container {
+  background: #fff url("/media/bg.png");
+  height: 100%;
+}
+.container .float-container {
+  overflow: hidden;
+}
+.container .float-container h1:not(.no-bg) {
+  white-space: nowrap;
+}
+@media (max-width: 73.374em) {
+  .container .float-container h1:not(.no-bg) {
+    margin-bottom: 3.1em;
+  }
+}
+.container article {
+  padding-bottom: 5em;
+}
+.container article li {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+.container #intro {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.footer {
+  font-family: 'Crush', Georgia, serif;
+  font-size: 1.7em;
+}
+.footer li a {
+  text-decoration: none;
+}
+.footer a {
+  color: #b6bab9;
+}
+.footer td:last-of-type {
+  padding: 10px;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: #3b283d;
+  width: 100%;
+  height: 100%;
+  min-width: 20em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  font-family: 'Italianno', Georgia, serif;
+  font-size: 6.5em;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 0;
+}
+h2 {
+  font-family: 'Italianno', Georgia, serif;
+  font-size: 4em;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+}
+h3 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+}
+p {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin: 20px;
+}
+ul {
+  padding: 1em;
+  list-style-type: none;
+}
+a {
+  color: #3b283d;
+}
+table {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 39.688em) {
+  iframe {
+    width: 640px;
+    height: 360px;
+  }
+}
+@media (max-width: 39.687000000000005em) {
+  iframe {
+    width: 20em;
+    height: 10em;
+  }
+}
+::selection {
+  background: #3b283d;
+  color: #b6bab9;
+}
+::-moz-selection {
+  background: #3b283d;
+  color: #b6bab9;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.align-left {
+  text-align: left;
+}
+@media (min-width: 39.688em) {
+  .align-right {
+    text-align: right;
+  }
+}
+.align-center {
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.bg-left {
+  background-position: 0;
+}
+@media (max-width: 73.374em) {
+  .bg-left {
+    background-position: 50% 7em;
+  }
+}
+.bg-right {
+  background-position: 100%;
+}
+@media (max-width: 73.374em) {
+  .bg-right {
+    background-position: 50% 7em;
+  }
+}
+.banner-bar {
+  width: 100%;
+  background: #3b283d;
+  color: #b6bab9;
+}
+@media (min-width: 39.688em) {
+  span.short {
+    display: none;
+  }
+}
+@media (max-width: 39.687000000000005em) {
+  span.short {
+    display: inline;
+  }
+}
+@media (min-width: 39.688em) {
+  span.long {
+    display: inline;
+  }
+}
+@media (max-width: 39.687000000000005em) {
+  span.long {
+    display: none;
+  }
+}
+#arrow {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url("/static/Wedding/arrow.svg");
+  background-size: contain;
+  top: 60%;
+  left: 8%;
+  cursor: pointer;
+}
+@media (max-width: 53.124em) {
+  #arrow {
+    top: 50%;
+  }
+}
+@media (max-width: 39.687000000000005em) {
+  #arrow {
+    background-image: url("/static/Wedding/arrow-gray.svg");
+  }
+}
+.crush {
+  color: #3b283d;
+  font-family: 'Crush', Georgia, serif;
+  font-size: 2.2em;
+  position: relative;
+  top: 22px;
+  right: 10px;
+}

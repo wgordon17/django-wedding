@@ -1,0 +1,50 @@
+{% extends "Wedding/base.html" %}
+{% load staticfiles %}
+{% block title %}Steph & Will{% endblock %}
+
+{% block content %}
+	{% include "Wedding/page_header.html" %}
+	<div class="container">
+
+		{% include "Wedding/page_nav.html" with curr_page="ceremony" %}
+
+		<div id="intro" class="content-block">
+			<article class="clearfix">
+				<div class="float-container diplomat bg-right">
+					<h1 class="align-left"><span class="long">The Ceremony</span><span class="short">Ceremony</span></h1>
+					<div class="text float-left">
+						<p>
+							Will Gordon and Stephanie Young will be joined together in marriage at the
+							<a href="http://www.diplomatbanquetctr.com/">Diplomat Banquet Center</a> in Rochester, N.Y.
+							Mark Shepard will be officiating this ceremony starting at 4:30 P.M. We ask that guests
+							please show up promptly as the ceremony will <em>begin</em> right at 4:30 P.M.
+						</p><p>
+							We have	decided that we'd prefer our ceremony pictures to be performed by our professional
+							photographer, Tony Pierleoni. Therefore, we are requesting an
+							<a href="https://www.google.com/search?tbm=isch&q=unplugged+wedding+ipad"><em>unplugged ceremony</em></a>.
+							This means that personal photography will be <strong>forbidden</strong> during the ceremony in
+							order to avoid our once-in-a-lifetime photographs being photobombed by rogue flashes, iPad
+							videography, or guests interrupting the photographer's line of sight.
+						</p><p>
+							Please join us in this exciting milestone in our lives. Invitations will be sent out toward the
+							end of May of 2015. Please be patient, and respond promptly so that we can keep our tally as
+							up-to-date as possible. If you have not received an invitation, but received our Save The Date,
+							please email one of us by clicking on our names below in the Copyright. However, if you have
+							received neither a Save The Date, nor an invitation, we sincerely apologize. We had limited
+							availability for the venue, and we did the best we could to accommodate everyone. Please
+							keep an eye on this website for updates following the wedding. Thank you to everyone!
+						</p>
+					</div>
+				</div>
+			</article>
+
+			<article class="clearfix">
+				<h1 class="align-center"><span class="long">Directions & Map</span><span class="short">Map</span></h1>
+				<div class="map align-center">
+					<iframe width="640" height="360" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Diplomat%20Banquet%20Center%2C%20Lyell%20Avenue%2C%20Rochester%2C%20NY%2C%20United%20States&key=AIzaSyAKUJ290AtZcl_eJhLQZ2299TVRrpFu9ew"></iframe>
+				</div>
+			</article>
+
+		</div>
+	</div>
+{% endblock %}

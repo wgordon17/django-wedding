@@ -1,0 +1,10 @@
+{% include "Wedding/banner.html" %}
+<nav>
+	<ul class="clearfix">
+		<li><a href="/" {% if curr_page == 'index' %}class="active"{% endif %}><span>Our&nbsp;Story</span></a></li>
+		<li><a href="/ceremony" {% if curr_page == 'ceremony' %}class="active"{% endif %}><span>Ceremony</span></a></li>
+		<li><a href="/reception" {% if curr_page == 'reception' %}class="active"{% endif %}><span>Reception</span></a></li>
+		<li><a href="/guest-info" {% if curr_page == 'guest-info' %}class="active"{% endif %}><span>Guest&nbsp;Information</span></a></li>
+		<li><a href="/wedding-party" {% if curr_page == 'wedding-party' %}class="active"{% endif %}><span>Wedding&nbsp;Party</span></a></li>
+	</ul>
+</nav>

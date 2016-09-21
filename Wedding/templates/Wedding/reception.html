@@ -1,0 +1,54 @@
+{% extends "Wedding/base.html" %}
+{% load staticfiles %}
+{% block title %}Steph & Will{% endblock %}
+
+{% block content %}
+	{% include "Wedding/page_header.html" %}
+	<div class="container">
+
+		{% include "Wedding/page_nav.html" with curr_page="reception" %}
+
+		<div id="intro" class="content-block">
+			<article class="clearfix">
+				<div class="float-container">
+					<h1 class="align-left no-bg"><span class="long">The Reception</span><span class="short">Reception</span></h1>
+					<div>
+						<p>
+							The reception will also be held at the Diplomat Banquet Center. Hors d'oeuvres and drinks
+							will be available immediately following the ceremony while the newly weds and the rest of
+							the wedding party leave for photographs. Food will be served buffet style beginning around
+							6:30 P.M. Followed by DJ assisted dancing, cake cutting, and final farewells.
+						</p><p>
+							Speeches will be delivered before the buffet by the best man, Jordan Hunter, and the maid of
+							honor, Kristi Young. The couple will have their first dance, followed by Stephanie dancing
+							with her father, and then Will dancing with his aunt.
+						</p>
+					</div>
+				</div>
+			</article>
+
+			<article class="clearfix">
+				<div class="float-container">
+					<h1 class="align-left no-bg">Menu</h1>
+					<div>
+						<ul>
+							<li><span class="crush">*</span>Sliced Beef Au Jus</li>
+							<li><span class="crush">*</span>Chicken French</li>
+							<li><span class="crush">*</span>Italian Sausage</li>
+							<li><span class="crush">*</span>Ziti Alfredo with Broccoli</li>
+							<li><span class="crush">*</span>Roasted Potatoes</li>
+							<li><span class="crush">*</span>Daily Vegetable Special</li>
+							<li><span class="crush">*</span>Tossed Salad</li>
+						</ul>
+						<ul>
+							<li><span class="crush">*</span>Strawberry Daiquiri punch bowls</li>
+							<li><span class="crush">*</span>1 bottle of White Zinfandel & 1 bottle of Chardonnay per table</li>
+							<li><span class="crush">*</span>Cash Bar</li>
+						</ul>
+					</div>
+				</div>
+			</article>
+
+		</div>
+	</div>
+{% endblock %}

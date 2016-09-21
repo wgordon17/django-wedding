@@ -1,0 +1,17 @@
+<header>
+	<section id="header-top">
+        <section id="portrait-narrow"></section>
+		<div id="wedding-date">
+		{% for unit, value in wedd_date.items %}
+			<div id="{{ unit }}">{{ value }}</div>
+		{% endfor %}
+		</div>
+		<section id="portrait"></section>
+		<div id="countdown">
+		<!--{% for unit, value in diff.items %}
+			<div id="{{ unit }}">{{ unit|title }}: {{ value }}</div>
+		{% endfor %}-->
+        The day has<br>come and gone<br>Onto the<br>HONEYMOON!!
+		</div>
+	</section>
+</header>

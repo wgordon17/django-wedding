@@ -1,0 +1,36 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+	<!--[if IE]>
+	<style>
+		nav a {
+			display: inline;
+		}
+	</style>
+	<![endif]-->
+    <!--[if lt IE 9]>
+    <style>
+    	span.short {
+    		display: none;
+    	}
+    </style>
+    <script src="{% static "Wedding/js/respond.js" %}"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="{% static "Wedding/reset.css" %}" />
+    <link rel="stylesheet" href="{% static "Wedding/stylus.css" %}" />
+</head>
+<body>
+	<!--<span id="arrow"></span>-->
+    {% block content %}{% endblock %}
+	{% include "Wedding/page_footer.html" %}
+	<!--<script src="{% static "Wedding/js/velocity.min.js" %}"></script>-->
+	<!--<script src="{% static "Wedding/js/script.js" %}"></script>-->
+	<script src="{% static "Wedding/js/tokenizer.js" %}"></script>
+	<script src="{% static "Wedding/js/parser.js" %}"></script>
+	<script src="{% static "Wedding/js/vminpoly.js" %}"></script>
+</body>
+</html>

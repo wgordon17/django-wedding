@@ -82,6 +82,8 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'wsgi', 'static', 'collected_static')
 STATIC_URL = '/static/'
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )

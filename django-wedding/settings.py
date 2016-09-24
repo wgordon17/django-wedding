@@ -79,7 +79,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/dev/howto/static-files/
-STATIC_ROOT = os.path.join(get_env_variable('OPENSHIFT_REPO_DIR'), 'wsgi', 'static', 'collected_static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'wsgi', 'static', 'collected_static')
 STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (

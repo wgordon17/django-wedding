@@ -24,8 +24,7 @@ DEBUG = False
 
 TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'stephandwill.com', 'www.stephandwill.com', 'willandsteph.com', 'www.willandsteph.com']
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -79,7 +78,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/dev/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'wsgi', 'static', 'collected_static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

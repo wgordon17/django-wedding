@@ -14,7 +14,7 @@ body {
 
 	#portrait {
 		width: 320px;
-		background: url(/media/engagementMed.png) no-repeat;
+		background: url(/static/engagementMed.png) no-repeat;
 	}
 }
 
@@ -29,43 +29,43 @@ body {
     }
 
 	.will-young {
-		background: url(/media/will_young_small.png) no-repeat;
+		background: url(/static/will_young_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.steph-young {
-		background: url(/media/steph_young_small.png) no-repeat;
+		background: url(/static/steph_young_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.dating {
-		background: url(/media/dating_small.png) no-repeat;
+		background: url(/static/dating_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.kristi {
-		background: url(/media/kristi_small.png) no-repeat;
+		background: url(/static/kristi_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.jordan {
-		background: url(/media/jordan_small.png) no-repeat;
+		background: url(/static/jordan_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.mike {
-		background: url(/media/mike_small.png) no-repeat;
+		background: url(/static/mike_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.berry {
-		background: url(/media/berry_small.png) no-repeat;
+		background: url(/static/berry_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.alyssa {
-		background: url(/media/alyssa_small.png) no-repeat;
+		background: url(/static/alyssa_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.ashley {
-		background: url(/media/ashley_small.png) no-repeat;
+		background: url(/static/ashley_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.diplomat {
-		background: url(/media/diplomat_small.png) no-repeat;
+		background: url(/static/diplomat_small.png) no-repeat;
 		background-size: 25% auto;
 	}
 }
@@ -107,7 +107,7 @@ body {
     #portrait-narrow {
         width: 320px;
         height: 90vh;
-        background: url(/media/engagementMed.png) no-repeat center top;
+        background: url(/static/engagementMed.png) no-repeat center top;
         float: right;
     }
     header {
@@ -136,46 +136,46 @@ body {
 
 	#portrait {
 		width: 640px;
-		background: url(/media/engagementLarge.png) no-repeat;
+		background: url(/static/engagementLarge.png) no-repeat;
 	}
 	.will-young {
-		background: url(/media/will_young.png) no-repeat;
+		background: url(/static/will_young.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.steph-young {
-		background: url(/media/steph_young.png) no-repeat;
+		background: url(/static/steph_young.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.dating {
-		background: url(/media/dating.png) no-repeat;
+		background: url(/static/dating.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.kristi {
-		background: url(/media/kristi.png) no-repeat;
+		background: url(/static/kristi.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.jordan {
-		background: url(/media/jordan.png) no-repeat;
+		background: url(/static/jordan.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.mike {
-		background: url(/media/mike.png) no-repeat;
+		background: url(/static/mike.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.berry {
-		background: url(/media/berry.png) no-repeat;
+		background: url(/static/berry.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.alyssa {
-		background: url(/media/alyssa.png) no-repeat;
+		background: url(/static/alyssa.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.ashley {
-		background: url(/media/ashley.png) no-repeat;
+		background: url(/static/ashley.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.diplomat {
-		background: url(/media/diplomat.png) no-repeat;
+		background: url(/static/diplomat.png) no-repeat;
 		background-size: 25% auto;
 	}
 }
@@ -197,7 +197,7 @@ header {
         min-width: 320px;
         height: 100%;
 		z-index: -10;
-		background: #FFF url(/media/bg.png);
+		background: #FFF url(/static/bg.png);
 	}
 
 	/* These divs are the date and countdown containers */
@@ -316,7 +316,7 @@ article li {
 
 div.container {
 	/*margin-top: 75vh;*/
-	background: #FFF url(/media/bg.png);
+	background: #FFF url(/static/bg.png);
 	height: 100%;
 }
 

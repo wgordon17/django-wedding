@@ -29,43 +29,43 @@ body {
     }
 
 	.will-young {
-		background: url(/static/will_young_small.png) no-repeat;
+		background: url(/static/will_young.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.steph-young {
-		background: url(/static/steph_young_small.png) no-repeat;
+		background: url(/static/steph_young.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.dating {
-		background: url(/static/dating_small.png) no-repeat;
+		background: url(/static/dating.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.kristi {
-		background: url(/static/kristi_small.png) no-repeat;
+		background: url(/static/kristi.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.jordan {
-		background: url(/static/jordan_small.png) no-repeat;
+		background: url(/static/jordan.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.mike {
-		background: url(/static/mike_small.png) no-repeat;
+		background: url(/static/mike.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.berry {
-		background: url(/static/berry_small.png) no-repeat;
+		background: url(/static/berry.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.alyssa {
-		background: url(/static/alyssa_small.png) no-repeat;
+		background: url(/static/alyssa.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.ashley {
-		background: url(/static/ashley_small.png) no-repeat;
+		background: url(/static/ashley.png) no-repeat;
 		background-size: 25% auto;
 	}
 	.diplomat {
-		background: url(/static/diplomat_small.png) no-repeat;
+		background: url(/static/diplomat.png) no-repeat;
 		background-size: 25% auto;
 	}
 }

@@ -61,7 +61,7 @@ header > section {
   position: fixed;
   width: 100%;
   z-index: -10;
-  background: #fff url("/media/bg.png");
+  background: #fff url("/static/Wedding/bg.png");
   min-width: 20em;
   height: 100%;
 }
@@ -134,13 +134,13 @@ header > section > div {
 @media (min-width: 73.375em) {
   #portrait {
     width: 640px;
-    background: url("/media/engagementLarge.png") no-repeat center top/cover;
+    background: url("/static/Wedding/engagementLarge.png") no-repeat center top/cover;
   }
 }
 @media (max-width: 73.374em) and (min-width: 53.125em) {
   #portrait {
     width: 40%;
-    background: url("/media/engagementLarge.png") no-repeat center top/cover;
+    background: url("/static/Wedding/engagementLarge.png") no-repeat center top/cover;
   }
 }
 @media (min-width: 53.125em) {
@@ -162,7 +162,7 @@ header > section > div {
   #portrait-narrow {
     width: 400px;
     height: 90vh;
-    background: url("/media/engagementMed.png") no-repeat center top;
+    background: url("/static/Wedding/engagementMed.png") no-repeat center top;
     float: right;
   }
 }
@@ -170,12 +170,12 @@ header > section > div {
   #portrait-narrow {
     width: 100%;
     height: 90vh;
-    background: url("/media/engagementMed.png") no-repeat -60px top;
+    background: url("/static/Wedding/engagementMed.png") no-repeat -60px top;
     float: right;
   }
 }
 .will-young {
-  background: url("/media/will_young.png") no-repeat;
+  background: url("/static/Wedding/will_young.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .will-young {
@@ -188,7 +188,7 @@ header > section > div {
   }
 }
 .steph-young {
-  background: url("/media/steph_young.png") no-repeat;
+  background: url("/static/Wedding/steph_young.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .steph-young {
@@ -201,7 +201,7 @@ header > section > div {
   }
 }
 .dating {
-  background: url("/media/dating.png") no-repeat;
+  background: url("/static/Wedding/dating.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .dating {
@@ -214,7 +214,7 @@ header > section > div {
   }
 }
 .kristi {
-  background: url("/media/kristi.png") no-repeat;
+  background: url("/static/Wedding/kristi.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .kristi {
@@ -227,7 +227,7 @@ header > section > div {
   }
 }
 .jordan {
-  background: url("/media/jordan.png") no-repeat;
+  background: url("/static/Wedding/jordan.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .jordan {
@@ -240,7 +240,7 @@ header > section > div {
   }
 }
 .mike {
-  background: url("/media/mike.png") no-repeat;
+  background: url("/static/Wedding/mike.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .mike {
@@ -253,7 +253,7 @@ header > section > div {
   }
 }
 .berry {
-  background: url("/media/berry.png") no-repeat;
+  background: url("/static/Wedding/berry.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .berry {
@@ -266,7 +266,7 @@ header > section > div {
   }
 }
 .alyssa {
-  background: url("/media/alyssa.png") no-repeat;
+  background: url("/static/Wedding/alyssa.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .alyssa {
@@ -279,7 +279,7 @@ header > section > div {
   }
 }
 .ashley {
-  background: url("/media/ashley.png") no-repeat;
+  background: url("/static/Wedding/ashley.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .ashley {
@@ -292,7 +292,7 @@ header > section > div {
   }
 }
 .diplomat {
-  background: url("/media/diplomat.png") no-repeat;
+  background: url("/static/Wedding/diplomat.png") no-repeat;
 }
 @media (min-width: 73.375em) {
   .diplomat {
@@ -407,7 +407,7 @@ nav a span {
   }
 }
 .container {
-  background: #fff url("/media/bg.png");
+  background: #fff url("/static/Wedding/bg.png");
   height: 100%;
 }
 .container .float-container {

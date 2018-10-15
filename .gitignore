@@ -1,0 +1,8 @@
+September/settings.py
+media/
+static/
+db.sqlite3
+.idea/
+__pycache__/
+nginx.mod
+nginx.te

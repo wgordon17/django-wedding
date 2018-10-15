@@ -1,0 +1,19 @@
+[Unit]
+Description=gunicorn-wedding daemon
+Requires=gunicorn-wedding.socket
+After=network.target
+
+[Service]
+PIDFile=/run/gunicorn-wedding/pid
+User=wgordon
+Group=wgordon
+WorkingDirectory=/opt/public_files/Wedding
+ExecStart=/opt/py-venvs/Wedding/bin/gunicorn --pid /run/gunicorn-wedding/pid   \
+          --bind unix:/run/gunicorn-wedding/socket September.wsgi              \
+          --workers 3 --access-logfile -
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
